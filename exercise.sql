@@ -20,6 +20,7 @@ insert into planeten  (`naam` , `diameter` , `afstand_tot_de_zon`, `massa` , `be
 ('Uranus' ,51118 ,2870972200 ,15, NULL),
 ('Neptunus' ,49572 ,4498252900 ,17, NULL); 
 UPDATE planeten SET  `naam` = 'Teenalp' WHERE id=7;
+DELETE FROM planeten WHERE id=7;
  Select * from planeten; 
 
 
